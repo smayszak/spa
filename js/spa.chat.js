@@ -6,13 +6,13 @@ spa.chat = (function(){
 				+ '</div>',
 			settable_map: {}
 		},
-		state_map = { $container: null},
+		stateMap = { $container: null},
 		jqueryMap = {},
 		setJqueryMap, configModule, initModule;
 
 		//DOM METHODS
 		setJqueryMap = function(){
-			var $container = state_map.$container;
+			var $container = stateMap.$container;
 			jqueryMap = {$container: $container};
 		};
 		//Public Methods
